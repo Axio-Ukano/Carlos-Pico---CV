@@ -39,7 +39,7 @@ h2 {
 
 h3 {
     margin: 0;
-    color: #0A8CF0;
+    color: #0A43F0;
 }
 
 p {
@@ -86,7 +86,7 @@ p {
     transform: translateY(-50%);
     width: 8px;
     height: 8px;
-    background-color: #0A43F0;
+    background-color: #0A8CF0;
     border-radius: 50%;
 }
 
@@ -115,7 +115,6 @@ p {
     width: 100%;
     clear: both;
     margin-top: 20px;
-    border-top: 1px solid #e0e0e0;
     padding-top: 10px;
 }
 
