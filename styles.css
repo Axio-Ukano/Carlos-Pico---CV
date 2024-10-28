@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-    background: #0AD4F0;
+    background: #0A8CF0;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -65,13 +65,6 @@ p {
     flex: 1;
 }
 
-.column-divider {
-    width: 1px;
-    background-color: #e0e0e0;
-    height: auto;
-    margin: 0 20px;
-}
-
 .education, .skills, .languages {
     margin-bottom: 20px;
 }
@@ -93,7 +86,7 @@ p {
     transform: translateY(-50%);
     width: 8px;
     height: 8px;
-    background-color: #0A8CF0;
+    background-color: #0AD4F0;
     border-radius: 50%;
 }
 
@@ -109,7 +102,7 @@ p {
 }
 
 .progress {
-    background: #0A8CF0;
+    background: #0AD4F0;
     height: 100%;
     border-radius: 5px;
 }
