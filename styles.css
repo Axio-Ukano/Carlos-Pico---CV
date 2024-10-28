@@ -1,0 +1,127 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+/* Education, Skills, and Languages */
+.education, .skills, .languages {
+    margin-bottom: 20px;
+}
+
+.edu-item, .exp-item {
+    margin-bottom: 10px;
+}
+
+.skill, .lang-item {
+    margin-bottom: 10px;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+    background: #e9ecef;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.progress {
+    background: #007BFF;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Experience Section */
+.experience {
+    width: 204.5%;
+    clear: both;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .experience {
+        width: 100%;
+    }
+}
