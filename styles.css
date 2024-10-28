@@ -47,6 +47,7 @@ p {
 
 .content {
     display: flex;
+    align-items: stretch;
     margin-bottom: 20px;
 }
 
@@ -89,6 +90,7 @@ p {
     width: 100%;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
