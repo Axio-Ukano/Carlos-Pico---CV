@@ -120,4 +120,8 @@ p {
         margin-right: 0;
         margin-bottom: 20px;
     }
+
+    .experience {
+        width: 100%;
+    }
 }
